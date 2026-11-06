@@ -360,46 +360,27 @@ function btn16 () {
     DSection.classList.add('none')
 };
 function closs () {
-    DSection.classList.remove('none')
-}
+    $(cont1).hide();
+    $(cont2).hide();
+    $(cont3).hide();
+    $(cont4).hide();
+    $(cont5).hide();
+    $(cont6).hide();
+    $(cont7).hide();
+    $(cont8).hide();
+    $(cont9).hide();
+    $(cont10).hide();
+    $(cont11).hide();
+    $(cont12).hide();
+    $(cont13).hide();
+    $(cont14).hide();
+    $(cont15).hide();
+    $(cont16).hide();
+    
+    DSection.classList.remove('none');
+};
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$(cont1).hide();
-$(cont2).hide();
-$(cont3).hide();
-$(cont4).hide();
-$(cont5).hide();
-$(cont6).hide();
-$(cont7).hide();
-$(cont8).hide();
-$(cont9).hide();
-$(cont10).hide();
-$(cont11).hide();
-$(cont12).hide();
-$(cont13).hide();
-$(cont14).hide();
-$(cont15).hide();
-$(cont16).hide();
